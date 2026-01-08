@@ -33,7 +33,7 @@
                 category: "cuisine",
                 title: "Somali breakfast",
                 description: "Canjeero (Somali pancake) oo lagu daray suqaar (diced meat) iyo muus oo lagu daray koob shaah ah, quraac dhaqameed.",
-                image: "/img/canjeero-Suqar.jpeg"
+                image: "/img/Canjeero-Suqar.jpeg"
             },
             {
                 id: 3,
