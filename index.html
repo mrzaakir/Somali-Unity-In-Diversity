@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somali Unity in Diversity | Culture & History</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Section Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-globe-africa"></i>
+                <div>Somali <span>Unity</span></div>
+            </div>
+            
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#map">Geography</a></li>
+                <li><a href="#unity">Unity</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>SOMALI <span>UNITY IN DIVERSITY</span></h1>
+            <p>Celebrating the rich tapestry of Somali culture, history, and people across the Horn of Africa. Explore the beauty of our traditions, the resilience of our history, and the strength of our unity.</p>
+            <a href="#culture" class="cta-button">Explore Somali Culture</a>
+        </div>
+    </section>
+
+    <!-- Culture Gallery Section -->
+    <section class="gallery" id="culture">
+        <div class="container">
+            <div class="section-title">
+                <h2>Somali Cultural Heritage</h2>
+                <p>Discover the diverse cultural expressions of the Somali people, from traditional arts and music to cuisine and social customs.</p>
+            </div>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="traditional">Traditional</button>
+                <button class="filter-btn" data-filter="cuisine">Cuisine</button>
+                <button class="filter-btn" data-filter="arts">Arts & Music</button>
+                <button class="filter-btn" data-filter="modern">Modern Somalia</button>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!--  Section History -->
+    <section class="history" id="history">
+        <div class="container">
+            <div class="section-title">
+                <h2>Somali History Timeline</h2>
+                <p>From ancient civilizations to modern statehood, explore key moments in Somali history that have shaped our identity.</p>
+            </div>
+            
+            <div class="history-timeline">
+                <!-- Timeline items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!--  Section Culture Stats-->
+    <section class="stats-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Somali Culture in Numbers</h2>
+                <p style="color: rgba(255, 255, 255, 0.9);">Statistical insights into the Somali people and their cultural footprint</p>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>21M+</h3>
+                    <p>Somali population worldwide</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-language"></i>
+                    <h3>100%</h3>
+                    <p>Share a common Somali language</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-mosque"></i>
+                    <h3>99.9%</h3>
+                    <p>Muslim population in Somalia</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>200+</h3>
+                    <p>Traditional Somali dishes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <div class="section-title">
+                <h2>Somali Geography</h2>
+                <p>Somalia's strategic location on the Horn of Africa with the longest coastline in continental Africa</p>
+            </div>
+            
+            <div class="map-container">
+                <canvas id="somaliMap" style="width: 100%; height: 100%;"></canvas>
+                <div class="map-overlay">
+                    <h3>Horn of Africa</h3>
+                    <p>Somalia boasts a coastline of 3,333 km along the Indian Ocean and Gulf of Aden, with diverse geography ranging from arid plains to mountain ranges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Section Unity Message-->
+    <section class="unity-message" id="unity">
+        <div class="container">
+            <h2>Unity in Diversity</h2>
+            <p>Despite regional differences, Somalis share a common language, religion, and cultural heritage that transcends borders. Our strength lies in our ability to celebrate diversity while maintaining unity as one people.</p>
+            <a href="#home" class="cta-button" style="background: white; color: var(--somali-blue);">Return to Top</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Somali Unity</h3>
+                    <p>Celebrating the rich cultural heritage and unity of the Somali people across the Horn of Africa and the diaspora.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#culture">Culture</a></li>
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#map">Geography</a></li>
+                        <li><a href="#unity">Unity Message</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cultural Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Somali Language</a></li>
+                        <li><a href="#">Traditional Music</a></li>
+                        <li><a href="#">Somali Cuisine</a></li>
+                        <li><a href="#">Poetry & Literature</a></li>
+                        <li><a href="#">Cultural Events</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column" id="contact">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Mogadishu, Somalia</li>
+                        <li><i class="fas fa-phone"></i> +252 617 70 2080 10</li>
+                        <li><i class="fas fa-envelope"></i> info@somaliunity.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 Somali Unity in Diversity. All rights reserved. |  ZaCky-TaAni</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <img class="modal-img" id="modalImage" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Section-JavaScript -->
+
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
+
